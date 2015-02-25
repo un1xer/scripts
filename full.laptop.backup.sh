@@ -1,0 +1,1 @@
+tar -cvpf /backupdrive/DellE6510_0217201.tar --directory=/ --exclude=proc --exclude=sys --exclude=dev/pts --exclude=backups --exclude=media --exclude=backupdrive --exclude=home/jballiet/gdrive --exclude=run/user/1000/gvfs . 
