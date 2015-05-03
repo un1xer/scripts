@@ -4,6 +4,7 @@ RDOCS=$HOME/docs
 
 if [[ "$CURLOC" == "$RSCRIPTS" ]]
 then
+	git pull
 	git remote set-url origin git@github.com:un1xer/scripts.git
 	echo "RUNNING GIT FOR SCRIPTS REPO"
 	git add *
@@ -12,6 +13,7 @@ then
 
 elif [[ "$CURLOC" == "$RDOCS" ]]
 then
+	git pull
 	git remote set-url origin git@github.com:un1xer/docs.git
 	echo "RUNNING GIT FOR DOCS REPO"
 	git add *
