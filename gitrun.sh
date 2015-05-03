@@ -4,6 +4,7 @@ RDOCS=$HOME/docs
 
 if [[ "$CURLOC" == "$RSCRIPTS" ]]
 then
+	echo '#############################'
 	echo 'FIRST RUNNING PULL'
 	git pull
 	echo 'PULL DONE'
