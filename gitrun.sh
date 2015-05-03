@@ -17,7 +17,11 @@ then
 
 elif [[ "$CURLOC" == "$RDOCS" ]]
 then
-	git pull
+        echo '#############################'
+        echo 'FIRST RUNNING PULL'
+        git pull
+        echo 'PULL DONE'
+        echo '##############################'
 	git remote set-url origin git@github.com:un1xer/docs.git
 	echo "RUNNING GIT FOR DOCS REPO"
 	git add *
