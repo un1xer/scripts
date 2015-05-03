@@ -1,6 +1,6 @@
 CURLOC=$(pwd)
-RSCRIPTS="/root/scripts"
-RDOCS="/root/docs"
+RSCRIPTS=$HOME/scripts
+RDOCS=$HOME/docs
 
 if [[ "$CURLOC" == "$RSCRIPTS" ]]
 then
