@@ -4,7 +4,9 @@ RDOCS=$HOME/docs
 
 if [[ "$CURLOC" == "$RSCRIPTS" ]]
 then
+	echo 'FIRST RUNNING PULL'
 	git pull
+	echo 'PULL DONE'
 	git remote set-url origin git@github.com:un1xer/scripts.git
 	echo "RUNNING GIT FOR SCRIPTS REPO"
 	git add *
