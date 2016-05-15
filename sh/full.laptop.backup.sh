@@ -1,0 +1,1 @@
+tar -cvpf /media/jballiet/256GBSD/DellE6510_0217201.tar --directory=/ --exclude=home/jballiet/ISO --exclude=proc --exclude=sys --exclude=dev/pts --exclude=backups --exclude=media --exclude=backupdrive --exclude=home/jballiet/gdrive --exclude=run/user/1000/gvfs .
